@@ -1,7 +1,7 @@
 def reverse_dict(dict):
     new_dict = {}  
     for key, value in dict.items():
-        new_dict[value], new_dict[key] = key, value
+        new_dict[value] = key
 
     return new_dict  
 
